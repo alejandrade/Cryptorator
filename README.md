@@ -11,4 +11,4 @@ Currently it is designed to work on any computer with minimal librarys and no JC
 | GET | /cr/{content} | path-param | {"content":"{encrypted text}","id":"{salt}"}  |
 | GET | /ecr/{content}/{salt} | {"content":"{encrypted text}","id":"{salt}"} | {"content":"{unencrypted text}","id":"{salt}"} | 
 | POST | /cr | {"content":"{text}"} | {"content":"{encrypted text}","id":"{salt}"} |
-| POST | /ec2 | {"content":"{encrypted text}","id":"{salt}"} | {"content":"{unencrypted text}","id":"{salt}"} |
+| POST | /ecr | {"content":"{encrypted text}","id":"{salt}"} | {"content":"{unencrypted text}","id":"{salt}"} |
